@@ -216,3 +216,65 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# =========================
+# Operating System Files
+# =========================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# =========================
+# Logs
+# =========================
+*.log
+
+# =========================
+# Temporary Files
+# =========================
+*.tmp
+*.temp
+
+# =========================
+# Compressed Files
+# =========================
+*.zip
+*.tar
+*.gz
+*.rar
+*.7z
+
+# =========================
+# Secrets
+# =========================
+credentials.json
+config.ini
+secrets.json
+
+# ===================================
+# Visual Studio / SSDT
+# ===================================
+.vs/
+bin/
+obj/
+
+# User-specific Visual Studio files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# ===================================
+# Local Database Files
+# ===================================
+*.mdf
+*.ldf
+*.ndf
+
+# Data
+
+# Ignore raw datasets (download separately)
+data/raw/*
+
+# Keep folder structure
+!data/raw/.gitkeep

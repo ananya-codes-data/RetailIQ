@@ -278,3 +278,15 @@ data/raw/*
 
 # Keep folder structure
 !data/raw/.gitkeep
+
+# Ignore interim datasets (download separately)
+data/interim/*
+
+# Keep folder structure
+!data/interim/.gitkeep
+
+# Ignore processed datasets (download separately)
+data/processed/*
+
+# Keep folder structure
+!data/processed/.gitkeep
